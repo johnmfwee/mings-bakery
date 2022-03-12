@@ -6,6 +6,7 @@ const options = {
   enfOfLine: 'lf',
   semi: false,
   tabWidth: 2,
+  bracketLine: false,
 }
 
 module.exports = options
