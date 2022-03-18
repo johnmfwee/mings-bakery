@@ -16,9 +16,9 @@ const VoxelDog = () => {
   const [target] = useState(new THREE.Vector3(-0.5, 1.2, 0.5))
   const [initialCameraPosition] = useState(
     new THREE.Vector3(
-      20 * Math.sin(0.2 * Path.PI),
+      20 * Math.sin(0.2 * Math.PI),
       10,
-      20 * Math.cos(0.2 * Path.PI)
+      20 * Math.cos(0.2 * Math.PI)
     )
   )
   const [scene] = useState(new THREE.Scene())
@@ -85,7 +85,7 @@ const VoxelDog = () => {
 
         if (frame <= 100) {
           const p = initialCameraPosition
-          const rotSpeed = -eastOutCircle(Frame / 120) * Math.PI * 200
+          const rotSpeed = -eastOutCircle(frame / 120) * Math.PI * 200
 
           camera.position.y = 10
           camera.position.x =
