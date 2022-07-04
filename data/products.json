@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Pandan Chiffon Cake",
+    "price": "19.99",
+    "description": "A delicious cake with a tangy, aromatic taste.",
+    "id": "pandan-chiffon",
+    "image": "/images/cakes/pandan-chiffon.jpeg"
+  },
+  {
+    "name": "Orange Chiffon Cake",
+    "price": "19.99",
+    "description": "A delicious cake with a tangy, fruity taste.",
+    "id": "orange-chiffon",
+    "image": "/images/cakes/orange-chiffon.jpeg"
+  },
+  {
+    "name": "Mocha Chiffon Cake",
+    "price": "19.99",
+    "description": "A delicious cake with a smooth mocha taste.",
+    "id": "mocha-chiffon",
+    "image": "/images/cakes/mocha-chiffon.jpeg"
+  },
+  {
+    "name": "Black Sesame Chiffon Cake",
+    "price": "19.99",
+    "description": "A delicious cake with a tangy, fruity taste.",
+    "id": "blacksesame-chiffon",
+    "image": "/images/cakes/blacksesame-chiffon.jpeg"
+  },
+  {
+    "name": "Green Tea Chiffon Cake",
+    "price": "19.99",
+    "description": "A delicious cake with a tangy, fruity taste.",
+    "id": "greentea-chiffon",
+    "image": "/images/cakes/greentea-chiffon.jpeg"
+  },
+  {
+    "name": "Banana Chiffon Cake",
+    "price": "19.99",
+    "description": "A delicious cake with a tangy, fruity taste.",
+    "id": "banana-chiffon",
+    "image": "/images/cakes/banana-chiffon.jpeg"
+  }
+]

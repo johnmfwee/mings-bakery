@@ -1,0 +1,42 @@
+{
+  "name": "mings-bakery",
+  "version": "0.1.0",
+  "description": "Ming's Bakery",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "prettier": "prettier --write .",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "John Wee",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.5",
+    "@chakra-ui/react": "^1.8.3",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "axios": "^0.26.1",
+    "firebase": "^9.6.8",
+    "framer-motion": "^6.2.6",
+    "next": "^12.0.10",
+    "next-auth": "^4.2.1",
+    "pg": "^8.7.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-firebase-hooks": "^5.0.3",
+    "react-firebaseui": "^6.0.0",
+    "react-hook-form": "^7.27.0",
+    "react-icons": "^4.3.1",
+    "sharp": "^0.30.2",
+    "three": "^0.137.5"
+  },
+  "devDependencies": {
+    "@types/three": "^0.137.0",
+    "eslint": "^8.8.0",
+    "eslint-config-next": "^12.0.10",
+    "prettier": "^2.5.1"
+  }
+}
