@@ -10,6 +10,7 @@ import {
 import { EmailIcon } from '@chakra-ui/icons'
 
 const ContactUs = () => {
+
   return (
     <Container>
       <Heading as='h1'>Contact Us</Heading>
