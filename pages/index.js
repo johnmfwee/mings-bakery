@@ -16,6 +16,10 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoFacebook } from 'react-icons/io5'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
+import firebase, { initFirebase } from '../lib/firebase'
+import { where } from 'firebase/firestore'
+
+initFirebase()
 
 const Home = () => {
   return (
